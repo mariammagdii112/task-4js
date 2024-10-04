@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+        <h2 id="change" class="text">Hello World!</h2>
+        
+        <button id="red" data-color="red" class="btn btn-outline-danger">Red</button>
+        <button id="blue" data-color="blue" class="btn btn-outline-primary">Blue</button>
+        <button id="yellow" data-color="yellow" class="btn btn-outline-warning">Yellow</button>
+
+
+
+        <!-- ///////////////////////////////////////////// -->
+        <div class="container">
+                <div class="row">
+                        <div class="col-md-10 m-auto">
+                                <h4 class="text-center">To Do list</h4>
+                                <form id="form-data" onsubmit="return validata()">
+                                        <input  id="user-data"  type="text" placeholder="Enter Your Usual list" class="form-control mt-3">
+                                        <input type="submit" value="Save" class="btn btn-success btn-block mt-3">
+                                </form>
+                                <ol id="list-data">
+
+                                </ol>
+                        </div>
+                </div>
+        </div>
+
+       <a href="bom.html" class="btn btn-outline-info "> Tap tp See BOM Task</a>
+
+        <script src="js/jquery.slim.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/main.js"></script>
+</body>
+</html>
